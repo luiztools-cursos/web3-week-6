@@ -11,6 +11,10 @@ Our Donate Crypto web3 frontend. (soon)
 
 Live 01: https://youtube.com/live/x_JfzkIMLMk?feature=share
 
+Live 02: https://youtube.com/live/kZRTDI1CsX8?feature=share
+
+Live 03: https://youtube.com/live/WJWuF9_FO5w?feature=share
+
 Follow me on social networks for more: https://about.me/luiztools
 
 Receive my news on Telegram: https://t.me/luiznews
