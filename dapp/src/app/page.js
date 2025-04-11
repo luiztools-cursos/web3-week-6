@@ -1,13 +1,24 @@
 "use client"
 
 import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { doLogin } from "@/services/Web3Service";
 
 export default function Home() {
 
   const { push } = useRouter();
 
-  function btnLoginClick(){
-    push("/create");
+  const [message, setMessage] = useState("");
+
+  function btnLoginClick() {
+    setMessage("Conectando na carteira...aguarde...");
+    doLogin()
+      .then(account => push("/create"))
+      .catch(err => {
+        console.error(err);
+        setMessage(err.message);
+      })
+
   }
 
   return (
@@ -28,7 +39,11 @@ export default function Home() {
                 Conectar com a MetaMask
               </button>
             </div>
-            <div className="alert alert-success p-3 col-12 mt-3" role="alert">Usuário autenticado com sucesso!</div>
+            {
+              message
+                ? <div className="alert alert-success p-3 col-12 mt-3" role="alert">{message}</div>
+                : <></>
+            }
           </div>
         </div>
       </div>

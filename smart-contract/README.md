@@ -16,6 +16,10 @@ Faucets: https://faucet.luiztools.com.br
 
 MetaMask configuration: https://www.luiztools.com.br/post/como-configurar-a-metamask-para-desenvolvimento-blockchain/
 
+Know my course: https://www.luiztools.com.br/curso-web23
+
+Know my book: https://www.luiztools.com.br/livro-web3
+
 Follow me on social networks for more: https://about.me/luiztools
 
 Receive my news on Telegram: https://t.me/luiznews

@@ -2,8 +2,6 @@
   "name": "dapp",
   "version": "0.1.0",
   "private": true,
-  "author": "LuizTools",
-  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -11,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "web3": "^4.16.0"
   }
 }
